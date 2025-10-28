@@ -11,15 +11,15 @@ npm install @your-username/react-component-library
 ## Usage
 
 ```jsx
-import { Button, Card } from '@your-username/react-component-library';
+import { Button, Card } from "@your-username/react-component-library";
 
 function App() {
   return (
     <div>
-      <Button variant="primary" onClick={() => alert('Clicked!')}>
+      <Button variant="primary" onClick={() => alert("Clicked!")}>
         Click Me
       </Button>
-      
+
       <Card title="My Card" description="This is a simple card component" />
     </div>
   );
@@ -29,17 +29,21 @@ function App() {
 ## Components
 
 ### Button
+
 A customizable button component with different variants.
 
 Props:
+
 - `variant`: 'primary' | 'secondary' | 'danger'
 - `onClick`: function to handle click events
 - `children`: button content
 
 ### Card
+
 A card component for displaying content.
 
 Props:
+
 - `title`: card title
 - `description`: card description
 

@@ -1,5 +1,5 @@
-import React from 'react';
-import './Card.css';
+import React from "react";
+import "./Card.css";
 
 export interface CardProps {
   title: string;
@@ -12,7 +12,7 @@ export const Card: React.FC<CardProps> = ({
   title,
   description,
   children,
-  footer
+  footer,
 }) => {
   return (
     <div className="card">

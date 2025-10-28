@@ -1,41 +1,41 @@
 .card {
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  overflow: hidden;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  background-color: white;
-  transition: box-shadow 0.3s ease;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    transition: box-shadow 0.3s ease;
 }
 
 .card:hover {
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
 }
 
 .card-header {
-  padding: 16px;
-  border-bottom: 1px solid #e9ecef;
-  background-color: #f8f9fa;
+    padding: 16px;
+    border-bottom: 1px solid #e9ecef;
+    background-color: #f8f9fa;
 }
 
 .card-title {
-  margin: 0;
-  font-size: 20px;
-  font-weight: 600;
-  color: #333;
+    margin: 0;
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
 }
 
 .card-body {
-  padding: 16px;
+    padding: 16px;
 }
 
 .card-description {
-  margin: 0;
-  color: #666;
-  line-height: 1.6;
+    margin: 0;
+    color: #666;
+    line-height: 1.6;
 }
 
 .card-footer {
-  padding: 16px;
-  border-top: 1px solid #e9ecef;
-  background-color: #f8f9fa;
+    padding: 16px;
+    border-top: 1px solid #e9ecef;
+    background-color: #f8f9fa;
 }
