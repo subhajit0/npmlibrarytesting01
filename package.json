@@ -1,5 +1,5 @@
 {
-  "name": "@your-username/react-component-library",
+  "name": "@subhajit07a/react-component-library",
   "version": "1.0.0",
   "description": "A simple React component library",
   "main": "dist/index.js",
@@ -18,7 +18,7 @@
     "components",
     "ui"
   ],
-  "author": "Your Name",
+  "author": "Subha",
   "license": "MIT",
   "peerDependencies": {
     "react": "^16.8.0 || ^17.0.0 || ^18.0.0",
